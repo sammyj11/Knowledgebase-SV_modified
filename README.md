@@ -12,4 +12,19 @@ Resources for learning concepts related to Systems and C++
 
 ### Systems Programming
 - CS 361 by Prof. Chris Kanich: [Link](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
+- To be added
+
+### Docker 
+- Basic Introduction by Learn Linux TV: [Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
+
+### C++ Interesting Links
+- Move Semantics by Nicolai Josuttis (CppCon 2021): 
+[Link](https://youtu.be/Bt3zcJZIalk?si=IM6pgoYCdvPiI6Xa)
+- C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
+- To be added
+
+### Random
+- From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
+
+
 
