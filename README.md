@@ -20,12 +20,14 @@ Resources for learning concepts related to Systems and C++
 ### C++ Interesting Links
 - Move Semantics by Nicolai Josuttis (CppCon 2021): 
 [Link](https://youtu.be/Bt3zcJZIalk?si=IM6pgoYCdvPiI6Xa)
-- Const, const_cast<>, constexpr, consteval: [Link](CPP_Notes/const_constexpr.md)
+- Const, const_cast<>, constexpr, consteval: [Notes](notes/const_constexpr.md)
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
 - To be added
 
 ### Random
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
+- Atomic Instructions: [Notes](notes/atomic_instructions.md)
+- To be added
 
 
 
