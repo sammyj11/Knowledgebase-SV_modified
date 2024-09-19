@@ -27,6 +27,7 @@ Resources for learning concepts related to Systems and C++
 ### Random
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
 - Atomic Instructions: [Notes](notes/atomic_instructions.md)
+- Memory Reordering: [Notes](notes/memory_reordering.md)
 - To be added
 
 
