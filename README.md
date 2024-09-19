@@ -21,6 +21,7 @@ Resources for learning concepts related to Systems and C++
 - Move Semantics by Nicolai Josuttis (CppCon 2021): 
 [Link](https://youtu.be/Bt3zcJZIalk?si=IM6pgoYCdvPiI6Xa)
 - Const, const_cast<>, constexpr, consteval: [Notes](notes/const_constexpr.md)
+- Return Value Optimisation: [Notes](notes/rvo.md)
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
 - To be added
 
