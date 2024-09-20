@@ -1,5 +1,7 @@
 ## Move Semantics
 
+Move Semantics by Klaus Iglberger (CppCon 2019): [Link](https://www.youtube.com/watch?v=St0MNEU5b0o)
+
 ```cpp
 std::vector<int> v1 {1, 2, 3, 4, 5};
 // in stack we will just store the pointers (to the start and the end)
@@ -176,3 +178,47 @@ object on the stack.
 - For larger strings, the data is dynamically allocated on the heap, and the 
 object holds a pointer to that data.
 
+
+## Universal References (Forwarding Reference)
+
+```cpp
+template<typename T>
+void f(T&& x); // Forwarding Reference
+
+auto&& var2 = var1; // Forwarding Reference
+```
+They represent: 
+- an `lvalue` reference if they are initialised by an lvalue.
+- an `rvalue` reference if they are initialised by an rvalue.
+
+```cpp
+template<typename T>
+void foo(T&& ) {
+    print("foo(T&&)");
+}
+
+int main () {
+    Widget w{};
+    foo(w); // prints "foo(T&&)" 
+    foo(Wifget{}) // also prints "foo(T&&)"
+
+    // w was lvalue, Widget{} was rvalue: T&& binded to both
+}
+```
+- <mark>`std::forward` conditionally casts its input into an rvalue reference. 
+It doesnt forward anything!
+
+    - If given value is lvalue, cast to an lvalue reference.
+    - If given value is rvalue, only then cast to an rvalue reference.
+
+`rvalues` can bind to lvalue reference to const, but not to lvalue reference.
+```cpp
+void f(Widget& );           // 1
+void f(const Widget& );     // 2
+template<typename T>        // 3
+void f(T&& );
+
+int main() {
+    f(getWidget{});             // this can bind to 3, 2 but not 1
+}
+```  

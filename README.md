@@ -18,8 +18,7 @@ Resources for learning concepts related to Systems and C++
 - Basic Introduction by Learn Linux TV: [Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
 
 ### C++ Interesting Links
-- Move Semantics by Nicolai Josuttis (CppCon 2021): 
-[Link](https://youtu.be/Bt3zcJZIalk?si=IM6pgoYCdvPiI6Xa)
+- Move Semantics: [Link](notes/move_semantics.md)
 - Const, const_cast<>, constexpr, consteval: [Notes](notes/const_constexpr.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
