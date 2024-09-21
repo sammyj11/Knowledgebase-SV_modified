@@ -24,10 +24,11 @@ Resources for learning concepts related to Systems and C++
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
 - To be added
 
-### Random
+### Miscellaneous
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
 - Atomic Instructions: [Notes](notes/atomic_instructions.md)
 - Memory Reordering: [Notes](notes/memory_reordering.md)
+- Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md)
 - To be added
 
 
