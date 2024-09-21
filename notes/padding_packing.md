@@ -172,9 +172,7 @@ It specifies the order in which bytes of a word are stored in memory.
 *While `ARM` defaults to `little-endian`, it can be configured to operate in 
 big-endian mode as well.*
 
-(Big-Endian is actually more intuitive at first sight!`)
+(Big-Endian is actually more intuitive at first sight!)
 
 ![](../assets/endian_1.png)
 ![](../assets/endian_2.png)
-
-x86(32/64 bit), ARM are little-endian.
