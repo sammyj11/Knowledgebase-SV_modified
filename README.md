@@ -29,6 +29,7 @@ Resources for learning concepts related to Systems and C++
 - Atomic Instructions: [Notes](notes/atomic_instructions.md)
 - Memory Reordering: [Notes](notes/memory_reordering.md)
 - Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md)
+- Linux Socket API: [Notes](notes/linux_socket_api.md)
 - To be added
 
 
