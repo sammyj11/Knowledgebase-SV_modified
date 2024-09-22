@@ -1,5 +1,8 @@
 # Linux Socket API
 
+1. [CS361 Video](https://youtu.be/XXfdzwEsxFk?si=VGb5lymk8Fkaglqk)
+2. [Video on Protocol Stack](https://www.youtube.com/watch?v=3b_TAYtzuho)
+
 `Server`: This is the component which listens for connections.
 
 `Client`: It sends a connect request to the server. This is the component, which
