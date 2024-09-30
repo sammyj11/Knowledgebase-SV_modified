@@ -24,6 +24,7 @@ Resources for learning concepts related to Systems and C++
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
 - Lambdas: [Notes](notes/lambdas.md)
 - Smart Pointers: [Notes](notes/smart_pointers.md)
+- RAII (Resource Acquisition is Initialisation): [Notes](notes/RAII.md)
 - To be added
 
 ### Miscellaneous

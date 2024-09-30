@@ -222,3 +222,5 @@ int main() {
     f(getWidget{});             // this can bind to 3, 2 but not 1
 }
 ```  
+
+![](../assets/binding.png)
