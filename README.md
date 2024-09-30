@@ -22,6 +22,8 @@ Resources for learning concepts related to Systems and C++
 - Const, const_cast<>, constexpr, consteval: [Notes](notes/const_constexpr.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
+- Lambdas: [Notes](notes/lambdas.md)
+- Smart Pointers: [Notes](notes/smart_pointers.md)
 - To be added
 
 ### Miscellaneous
