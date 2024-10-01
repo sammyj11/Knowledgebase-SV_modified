@@ -5,4 +5,6 @@
 [Video 2](https://www.youtube.com/watch?v=o3pcY-bRRgs&list=PLEJxKK7AcSEGPOCFtQTJhOElU44J_JAun&index=34&pp=iAQB)
 
 
-![](../assets/5ceedb0f-6e33-9c88-dfd6-16af0c863a1d.svg)
+![](../assets/stack.svg)
+
+[Pdf Notes Here](../assets/buffer_overflow.pdf)
