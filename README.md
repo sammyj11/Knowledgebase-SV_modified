@@ -25,7 +25,7 @@ Resources for learning concepts related to Systems and C++
 - Lambdas: [Notes](notes/lambdas.md)
 - Smart Pointers: [Notes](notes/smart_pointers.md)
 - RAII (Resource Acquisition is Initialisation): [Notes](notes/RAII.md)
-- Virtual Functions ans vTables: [Notes](notes/virtual_functions.md)
+- Virtual Functions and vTables: [Notes](notes/virtual_functions.md)
 - To be added
 
 ### Miscellaneous
