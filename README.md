@@ -27,6 +27,7 @@ Resources for learning concepts related to Systems and C++
 - Smart Pointers: [Notes](notes/smart_pointers.md)
 - RAII (Resource Acquisition is Initialisation): [Notes](notes/RAII.md)
 - Virtual Functions and vTables: [Notes](notes/virtual_functions.md)
+- HTTP using libcurl: [Notes](notes/http.md)
 - To be added
 
 ### Miscellaneous
