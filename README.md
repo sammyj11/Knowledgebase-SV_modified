@@ -12,6 +12,7 @@ Resources for learning concepts related to Systems and C++
 
 ### Systems Programming
 - CS 361 by Prof. Chris Kanich: [Link](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
+- Some Latency Number: [Notes](notes/latency_numbers.md)
 - To be added
 
 ### Docker 
