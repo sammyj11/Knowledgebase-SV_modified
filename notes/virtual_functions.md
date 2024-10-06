@@ -55,7 +55,7 @@ int main () {
 }
 ```
 
-In the above example, we will have to mark the base function as `virtual` and the
+In the above example if we wish that `func` of derived should be called then, we will have to mark the base function as `virtual` and the
 derived function should override that function.
 
 ```cpp
