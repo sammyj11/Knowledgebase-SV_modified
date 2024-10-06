@@ -127,6 +127,18 @@ struct foo5 {
 };
 ```
 
+In the below example, we can observe that padding is even added at the end, for complete alignment (in case we 
+have array of structs). Even if we don't have an array, we will have this padding:
+```cpp
+struct mystruct_A {
+    char a;
+    char pad1[3]; /* inserted by compiler: for alignment of b */
+    int b;
+    char c;
+    char pad2[3]; /* -"-: for alignment of the whole struct in an array */
+} x;
+```
+
 Now that we know how and why compilers insert padding in and after our structures 
 we’ll examine what we can do to squeeze out the slop. 
 This is the art of structure packing.
