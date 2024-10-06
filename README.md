@@ -37,6 +37,7 @@ Resources for learning concepts related to Systems and C++
 - Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md)
 - Linux Socket API: [Notes](notes/linux_socket_api.md)
 - Buffer Overflow Attacks: [Notes](notes/buffer_overflow.md)
+- OS Boot Process: [Notes](notes/os_booting.md)
 - To be added
 
 ```
