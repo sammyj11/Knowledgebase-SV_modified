@@ -34,11 +34,14 @@ Resources for learning concepts related to Systems and C++
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
 - Atomic Instructions: [Notes](notes/atomic_instructions.md)
 - Memory Reordering: [Notes](notes/memory_reordering.md)
-- Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md)
-- Linux Socket API: [Notes](notes/linux_socket_api.md)
+- Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md) 
 - Buffer Overflow Attacks: [Notes](notes/buffer_overflow.md)
 - OS Boot Process: [Notes](notes/os_booting.md)
 - To be added
+
+### Networking
+- From NIC to User Processes: 
+- How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
 
 ```
 बजी न मंदिर में घड़ियाली, चढ़ी न प्रतिमा पर माला,
