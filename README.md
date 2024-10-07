@@ -40,7 +40,7 @@ Resources for learning concepts related to Systems and C++
 - To be added
 
 ### Networking
-- From NIC to User Processes: 
+- From NIC to User Processes: [Notes](assets/From%20NIC%20to%20Application.pdf)
 - How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
 
 ```
