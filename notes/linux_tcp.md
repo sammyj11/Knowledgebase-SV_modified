@@ -157,6 +157,9 @@ involved in the handshake.
 It only receives the last `ack` of 3-way handshake. On receiving, it can accept
 the new connection and can  start to `send/recv` data.
 
+![](../assets/syn.png)
+*Note that size of accept queue is bounded. If we don't accept the ready connections, new connections would be dropped* 
+
 ### ACKs
 Even the `acks/retransmissions` are handled by the kernel's protocol stack. 
 The application is not notified about this. The TCP header contain flags, which
