@@ -30,6 +30,13 @@ Fruit apples_to_apples (int i, Fruit x, int j) {
     return x
 }
 ```
+<mark/>The return slot is allocated by the `caller` itself. And its address is passed to
+the `callee` via the `rdi` register (this is a hidden parameter in this case).<mark>
+
+<mark/>In case of RVO, the returned object will be constructed in this slot, otherwise it would
+be created locally in stack and then copied here.<mark>
+
+
 ![](../assets/stack.png)
 
 Here we can't elide copy, since the stack address of Fruit x and the return
