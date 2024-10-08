@@ -9,6 +9,7 @@ Resources for learning concepts related to Systems and C++
 ### Caches
 - YouTube playlist by Prof. Harry Porter: [Link](https://www.youtube.com/playlist?list=PLbtzT1TYeoMgJ4NcWFuXpnF24fsiaOdGq)
 - Cache Coherence: See relevant videos [here](https://www.youtube.com/watch?v=ISaYWm8T8n4&list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2&index=170)
+- MIT Notes: [Intro](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c14/c14s1/#17), [MESI](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c21/c21s1/#18)
 
 ### Systems Programming
 - CS 361 by Prof. Chris Kanich: [Link](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
