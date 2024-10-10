@@ -108,7 +108,7 @@ program calls some functions within a particular shared object, so I'll just
 make a note of which shared object these functions are in, and continue on”.
 
 - The binding between the program and the shared object is done at runtime 
-that is <mark> before the program starts </mark>, the appropriate shared 
+that is <mark> after the program starts </mark>, the appropriate shared 
 objects are found and bound.
 
 - Programs that are linked dynamically are linked against shared objects 
