@@ -38,6 +38,7 @@ Resources for learning concepts related to Systems and C++
 - Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md) 
 - Buffer Overflow Attacks: [Notes](notes/buffer_overflow.md)
 - OS Boot Process: [Notes](notes/os_booting.md)
+- From a Program to Process: [Notes](notes/program_to_process.md)
 - To be added
 
 ### Networking
