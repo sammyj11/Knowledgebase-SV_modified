@@ -39,6 +39,7 @@ Resources for learning concepts related to Systems and C++
 - Buffer Overflow Attacks: [Notes](notes/buffer_overflow.md)
 - OS Boot Process: [Notes](notes/os_booting.md)
 - From a Program to Process: [Notes](notes/program_to_process.md)
+- Stack Memory Management: [Link](https://organicprogrammer.com/2020/08/19/stack-frame/)
 - To be added
 
 ### Networking
