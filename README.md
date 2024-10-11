@@ -19,7 +19,7 @@ Resources for learning concepts related to Systems and C++
 ### Docker 
 - Basic Introduction by Learn Linux TV: [Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
 
-### C++ Interesting Links
+### C++
 - Move Semantics: [Notes](notes/move_semantics.md)
 - Const, const_cast<>, constexpr, consteval: [Notes](notes/const_constexpr.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
@@ -45,6 +45,13 @@ Resources for learning concepts related to Systems and C++
 ### Networking
 - From NIC to User Processes: [Notes](notes/packet_handling.md)
 - How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
+
+## Some Interesting Things
+- `mmap` in database system: [Link](https://www.youtube.com/watch?v=1BRGU_AS25c)
+- How processes get more memory: [Link](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
+- `mmap` for File Mapping: [Link](https://www.youtube.com/watch?v=m7E9piHcfr4)
+- `mmap` for IPC: [Link](https://www.youtube.com/watch?v=rPV6b8BUwxM)
+
 
 ```
 बजी न मंदिर में घड़ियाली, चढ़ी न प्रतिमा पर माला,
