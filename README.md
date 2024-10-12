@@ -21,6 +21,7 @@ Resources for learning concepts related to Systems and C++
 
 ### C++
 - Move Semantics: [Notes](notes/move_semantics.md)
+- Casting: [Notes](notes/casting.md)
 - Const, const_cast<>, constexpr, consteval: [Notes](notes/const_constexpr.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
 - C++ Coding Practices: [Link](https://micro-os-plus.github.io/develop/sutter-101/)
