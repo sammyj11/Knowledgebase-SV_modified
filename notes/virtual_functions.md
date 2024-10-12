@@ -100,3 +100,17 @@ ptr->function();
 [PDF version](../assets/Vtables.pdf)
 
 ![](../assets/vtables.png)
+
+## Virtual Functions in Constructor and Destructor
+
+![](../assets/constructor.png)
+
+When the constructor of base class is being invoked, the derived class has yet
+not been created: hence the function corresponding to base will be called.
+
+Same is with destructor. The derived class has already been destroyed, and hence
+the function corresponding to base will be called.
+
+Therefore, don't do any fancy things inside constructor/destructors which
+involve invoking virtual functions.
+

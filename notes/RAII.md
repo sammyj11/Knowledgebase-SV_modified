@@ -1,3 +1,99 @@
+## More on Classes
+
+Compiler generates default functions: Constructor, Copy Constructor, Copy 
+Assignment `only if any variant of them are not present`.
+
+### Disallowing Functions
+`f() = delete` : It will prevent the compiler from generating it.
+
+### Private Destructor
+It means the object cannot be stored in stack. Because when the stack unwinds,
+the destructor of the objects are called but this destuctor is private.
+
+Also it can only be destroyed by a factory member function or a friend function.
+*Yes, friends are worse than enemies*.
+
+```cpp
+class MyClass {
+private:
+    ~MyClass() {
+        std::cout << "Private Destructor Called" << std::endl;
+    }
+};
+
+int main() {
+    MyClass obj;  // Error: Destructor is private, stack object can't be destroyed
+    MyClass* ptr = new MyClass(); // Yes can be created like this
+    delete ptr;   // Error: Destructor is private, can't delete heap object
+}
+```
+
+**How to destroy it:**
+
+1. Private Constuctor
+```cpp
+class HeapOnly {
+public:
+    static HeapOnly* createInstance() {
+        return new HeapOnly();
+    }
+
+    void destroyInstance() {
+        delete this;  // Allows deletion, but only through this function
+    }
+
+private:
+    HeapOnly() { std::cout << "HeapOnly Constructor" << std::endl; }
+    ~HeapOnly() { std::cout << "HeapOnly Destructor" << std::endl; }
+};
+
+int main() {
+    // HeapOnly obj;  // Error: Constructor is private (can't allocate on stack)
+    HeapOnly* obj = HeapOnly::createInstance();
+    obj->destroyInstance();  // Properly deletes the object
+}
+```
+
+2. Public Constructor:
+
+```cpp
+#include <iostream>
+
+class MyClass {
+public:
+    // Public constructor
+    MyClass() {
+        std::cout << "Constructor: MyClass object created!" << std::endl;
+    }
+
+    // Method to safely delete the object
+    void destroyInstance() {
+        delete this;  // Allows controlled deletion of the object
+    }
+
+private:
+    // Private destructor
+    ~MyClass() {
+        std::cout << "Destructor: MyClass object destroyed!" << std::endl;
+    }
+};
+
+int main() {
+    // MyClass obj; // ERROR: destructor is private
+    // Creating the object dynamically on the heap
+    MyClass* obj = new MyClass();
+
+    // Deleting the object through the controlled method
+    obj->destroyInstance();
+
+    // obj->~MyClass();    // ERROR: Destructor is private and cannot be called directly
+    // delete obj;         // ERROR: Cannot delete directly, destructor is private
+
+    return 0;
+}
+```
+
+
 ## RAII: Resource Acquisition is Initialisation
 
 C++ program can have different type of resources:
