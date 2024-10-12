@@ -56,6 +56,64 @@ int main() {
 }
 ```
 
+<mark> Modifying an object declared as const after casting away its 
+constness using const_cast results in undefined behavior if the 
+object was truly defined as const in its original context. However, 
+it’s safe if the object was not originally constant but passed 
+around as a const reference or pointer. </mark>
+
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cassert>
+
+int main () {
+    // here i is implicitly constant
+    // hence, using const_cast is undefined
+    const int i = 5;
+    // int& j = i;  // error
+    int& j = const_cast<int&>(i);
+    j = 7;
+    std::cout << i << '\n'; // prints 5
+    std::cout << j << '\n'; // prints 7
+
+    // int* ptr = &i; // error
+    int* ptr = const_cast<int*> (&i);
+    *ptr = 10;
+    std::cout << i << '\n'; // still prints 5
+    std::cout << *ptr << '\n'; // prints 10
+
+    // although same address :)
+    std::cout << ptr << ' ' << &i << '\n';
+
+
+    // safe usage
+
+    int original = 11; // not inherently constant
+
+    auto change = [](const int& ref) {
+        // ref = 15;  // error
+        int& nonconst = const_cast<int&> (ref);
+        nonconst = 15; // this is applicable
+    };
+
+    change(original);
+
+    std::cout << original << '\n'; // prints 15 now :)
+
+    // Modifying an object declared as const after casting 
+    // away its const-ness using const_cast results in 
+    // undefined behavior if the object was truly defined 
+    // as const in its original context. 
+    // However, it’s safe if the object was not originally 
+    // constant but passed around as a const reference 
+    // or pointer.
+
+}
+```
+
 ### constexpr
 - These expressions can be:
     - evaluated at the compile time (good optimisation).
