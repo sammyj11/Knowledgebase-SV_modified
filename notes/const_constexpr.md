@@ -28,6 +28,7 @@ struct Widget {
         p++; // valid since `p` doesnt belong to this class
         f++; // valid since `f` doesnt belong to this class
         c++; // valid since `c` is mutable
+        const_cast<Widget*>(this)->c++; // another way to increment c, without mutable.
         // a++; // not valid
         std::cout << a << '\n';
     }
