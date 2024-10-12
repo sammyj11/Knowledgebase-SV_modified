@@ -29,6 +29,7 @@ Resources for learning concepts related to Systems and C++
 - Smart Pointers: [Notes](notes/smart_pointers.md)
 - Classes and RAII: [Notes](notes/RAII.md)
 - Virtual Functions and vTables: [Notes](notes/virtual_functions.md)
+- Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
 - HTTP using libcurl: [Notes](notes/http.md)
 - To be added
 
