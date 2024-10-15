@@ -36,6 +36,10 @@ Shivam's Knowledgebase
 - Keep in Mind: [Notes](notes/performance.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
 
+### C++ Implementation
+- Unique Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/unique_pointer.hpp)
+- Shared Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/shared_pointer.hpp)
+
 ### Miscellaneous
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
 - Atomic Instructions: [Notes](notes/atomic_instructions.md)
