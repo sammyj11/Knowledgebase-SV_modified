@@ -112,6 +112,7 @@ In the code above:
 `std::string` to transfer ownership of the data from `s1` to `s2`.
 - <mark>`std::move` unconditionally casts its input into an rvalue reference. 
 It doesnt move anything!
+- `std::move(s)` when s is const, leads to copy not move!
 
 
 ### Operators
