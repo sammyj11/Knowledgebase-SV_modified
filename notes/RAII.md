@@ -202,6 +202,7 @@ void funcA() {
     } catch (const std::exception& e) {
         std::cout << "Caught exception: " << e.what() << '\n';
     }
+    std::cout << "Handling Done\n";
 }
 
 int main() {
@@ -216,6 +217,7 @@ In funcA
 In funcB
 In funcC
 Caught exception: Exception in funcC
+Handling Done
 ```
 
 ### What Happens in the Call Stack:
