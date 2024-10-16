@@ -115,6 +115,12 @@ In the code above:
 It doesnt move anything!
 - <mark>`std::move(s)` when s is const, leads to copy not move!
 
+```cpp
+const std::string s1 = "Shivam Verma";
+std::string s2 = std::move(s1);  // this is COPY not MOVE
+std::cout << s1 << ' ' << s2 << '\n';
+```
+
 
 ### Operators
 1. Copy Assignment Operator
