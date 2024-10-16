@@ -105,6 +105,7 @@ Example:
 ```cpp
 std::string s1 = "Hello";
 std::string s2 = std::move(s1);  // Moves the contents of `s1` to `s2`
+// after ownership transfer s1 will now be a valid but undefined state!
 ```
 
 In the code above:
@@ -112,7 +113,7 @@ In the code above:
 `std::string` to transfer ownership of the data from `s1` to `s2`.
 - <mark>`std::move` unconditionally casts its input into an rvalue reference. 
 It doesnt move anything!
-- `std::move(s)` when s is const, leads to copy not move!
+- <mark>`std::move(s)` when s is const, leads to copy not move!
 
 
 ### Operators
@@ -149,7 +150,7 @@ class Widget {
         Widget& operator=(Widget&& w) {
             i = std::move(w.i);
             // s = w.s // don't do this, it copies not move
-            s = std::move(w.pi);
+            s = std::move(w.s);
             delete pi; // need to clear exisiting resources first!
             pi = std::move(w.pi);
 
