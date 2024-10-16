@@ -152,7 +152,7 @@ int main() {
         }
 
         int main() {
-            // compile time (check godbolt assembly)
+            // compile time (check godbolt assembly with --std=c++20)
             constexpr int m = maxElement();
             std::cout << m << '\n';
         }
