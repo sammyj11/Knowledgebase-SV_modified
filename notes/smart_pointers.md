@@ -118,9 +118,11 @@ int main() {
 
 ![](../assets/sharedPtr.png)
 ![](../assets/class.png)
+
 `F`, `V` are base classes. `T` is a derived class. Pointers of base class pointing
 to object of derived class. Both will be pointing to a different offset in the
 heap allocated object.
+
 ![](../assets/sharedPtr2.png)
 
 
