@@ -36,6 +36,7 @@ Shivam's Knowledgebase
 ### C++ Performance
 - Keep in Mind: [Notes](notes/performance.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
+- Template Metaprogramming: [Notes](notes/metaprogramming.md)
 
 ### C++ Implementation
 - Unique Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/unique_pointer.hpp)
