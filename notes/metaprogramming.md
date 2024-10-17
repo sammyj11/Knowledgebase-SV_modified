@@ -1,5 +1,7 @@
 ## Template Metaprogramming
 
+[Link to CPPCON Talk](https://youtu.be/Am2is2QCvxY?si=QrulPFBy7Dg5poQ1)
+
 - Do work at compile time that otherwise would be done at Runtime.
 - In C++, the template instantiation happens at the compile time, hence we make
 use of it.
@@ -114,4 +116,11 @@ int main() {
     return 0;
 }
 ```
+`false_type` and `true_type` can have static value with F/T.
+
+![](../assets/meta1.png)
+
+How to deal with parameters pack:
+
+![](../assets/meta2.png)
 
