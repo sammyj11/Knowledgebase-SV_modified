@@ -41,6 +41,10 @@ Shivam's Knowledgebase
 ### C++ Implementation
 - Unique Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/unique_pointer.hpp)
 - Shared Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/shared_pointer.hpp)
+- Thread Pool: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/thread_pool.hpp)
+- HashMap: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/hashmap.hpp)
+- LRU Cache: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/LRU_cache.hpp)
+- Scope Timer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/timer.hpp)
 
 ### Miscellaneous
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
