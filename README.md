@@ -5,6 +5,7 @@ Shivam's Knowledgebase
 - Operating Systems: A Linux Kernel-Oriented Perspective by Prof. Smruti Sarangi:
 [Book Link](https://www.cse.iitd.ac.in/~srsarangi/osbook/index.html)
 - OS lectures by Prof. Sorav Bansal: [Youtube Link](https://www.youtube.com/playlist?list=PLf3ZkSCyj1tdCS2oCYACXO6x-VKpDIMB6)
+- Revise OS Memory Management: [Link](https://www.youtube.com/watch?v=7aONIVSXiJ8&t=497s)
 
 ### Caches
 - YouTube playlist by Prof. Harry Porter: [Link](https://www.youtube.com/playlist?list=PLbtzT1TYeoMgJ4NcWFuXpnF24fsiaOdGq)
@@ -32,6 +33,7 @@ Shivam's Knowledgebase
 - Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
 - HTTP using libcurl: [Notes](notes/http.md)
 - More C++ Study Notes: [Link](https://encelo.github.io/notes.html)
+- Function Inlining: [Notes](https://isocpp.org/wiki/faq/inline-functions)
 - To be added
 
 ### C++ Performance
@@ -80,3 +82,5 @@ Shivam's Knowledgebase
 दुनियावालों, किन्तु, किसी दिन आ मदिरालय में देखो,
 दिन को होली, रात दिवाली, रोज़ मनाती मधुशाला।
 ```
+
+
