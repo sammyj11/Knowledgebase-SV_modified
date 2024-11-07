@@ -40,6 +40,7 @@ Shivam's Knowledgebase
 - Keep in Mind: [Notes](notes/performance.md)
 - Return Value Optimisation: [Notes](notes/rvo.md)
 - Template Metaprogramming: [Notes](notes/metaprogramming.md)
+- Set vs PQ: [Notes](notes/set_pq.md)
 
 ### C++ Implementation
 - Unique Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/unique_pointer.hpp)
