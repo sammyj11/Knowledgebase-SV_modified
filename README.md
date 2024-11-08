@@ -35,6 +35,7 @@ Shivam's Knowledgebase
 - More C++ Study Notes: [Link](https://encelo.github.io/notes.html)
 - Function Inlining: [Notes](https://isocpp.org/wiki/faq/inline-functions)
 - Placement New: [Notes](notes/placement_new.md)
+- Exceptions (throw, try/catch): [Notes](notes/exceptions.md)
 - To be added
 
 ### C++ Performance
