@@ -34,6 +34,7 @@ Shivam's Knowledgebase
 - HTTP using libcurl: [Notes](notes/http.md)
 - More C++ Study Notes: [Link](https://encelo.github.io/notes.html)
 - Function Inlining: [Notes](https://isocpp.org/wiki/faq/inline-functions)
+- Placement New: [Notes](notes/placement_new.md)
 - To be added
 
 ### C++ Performance
