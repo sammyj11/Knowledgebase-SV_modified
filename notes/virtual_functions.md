@@ -1,5 +1,7 @@
 ## Virtual Functions and VTables
 
+Must read C++ FAQ Article: [Link](https://isocpp.org/wiki/faq/virtual-functions)
+
 - Used when we want to call member function of derived class by a pointer of 
 base class.
 
@@ -73,6 +75,31 @@ To ensure this, mark the destructor of base class as virtual. This will ensure
 that the destructor of derived class is also called, upon object destruction.
 
 `virtual ~Base() {}`
+
+### How can C++ achieve dynamic binding yet also static typing?
+
+When you have a pointer to an object, the object may actually be of 
+a class that is derived from the class of the pointer (e.g., a 
+Vehicle* that is actually pointing to a Car object; this is called 
+“polymorphism”). Thus there are two types: the (static) type of the 
+pointer (Vehicle, in this case), and the (dynamic) type of the 
+pointed-to object (Car, in this case).
+
+Static typing means that the legality of a member function 
+invocation is checked at the earliest possible moment: by the 
+compiler at compile time. The compiler uses the static type of the 
+pointer to determine whether the member function invocation is 
+legal. If the type of the pointer can handle the member function, 
+certainly the pointed-to object can handle it as well. E.g., if 
+Vehicle has a certain member function, certainly Car also has that 
+member function since Car is a kind-of Vehicle.
+
+Dynamic binding means that the address of the code in a member 
+function invocation is determined at the last possible moment: 
+based on the dynamic type of the object at run time. It is called 
+“dynamic binding” because the binding to the code that actually 
+gets called is accomplished dynamically (at run time). Dynamic 
+binding is a result of virtual functions.
 
 ### Virtual Table (vTable) - Supports Dynamic Dispatch
 
