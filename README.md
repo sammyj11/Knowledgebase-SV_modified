@@ -35,6 +35,7 @@ Shivam's Knowledgebase
 - Placement New: [Notes](notes/placement_new.md)
 - Exceptions (throw, try/catch): [Notes](notes/exceptions.md)
 - `i++` vs `++i` overloading: [Notes](notes/pre-post-increment.md)
+- CRTP: [Notes](notes/CRTP.md) 
 - To be added
 
 ### C++ Performance
