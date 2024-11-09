@@ -5,7 +5,6 @@ Shivam's Knowledgebase
 - Operating Systems: A Linux Kernel-Oriented Perspective by Prof. Smruti Sarangi:
 [Book Link](https://www.cse.iitd.ac.in/~srsarangi/osbook/index.html)
 - OS lectures by Prof. Sorav Bansal: [Youtube Link](https://www.youtube.com/playlist?list=PLf3ZkSCyj1tdCS2oCYACXO6x-VKpDIMB6)
-- Revise OS Memory Management: [Link](https://www.youtube.com/watch?v=7aONIVSXiJ8&t=497s)
 
 ### Caches
 - YouTube playlist by Prof. Harry Porter: [Link](https://www.youtube.com/playlist?list=PLbtzT1TYeoMgJ4NcWFuXpnF24fsiaOdGq)
@@ -13,12 +12,12 @@ Shivam's Knowledgebase
 - MIT Notes: [Intro](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c14/c14s1/#17), [MESI](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c21/c21s1/#18)
 
 ### Systems Programming
-- CS 361 by Prof. Chris Kanich: [Link](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
+- CS 361 by Prof. Chris Kanich: [YT Link](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 - Some Latency Number: [Notes](notes/latency_numbers.md)
 - To be added
 
 ### Docker 
-- Basic Introduction by Learn Linux TV: [Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
+- Basic Introduction by Learn Linux TV: [YT Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
 
 ### C++
 - Move Semantics: [Notes](notes/move_semantics.md)
@@ -30,7 +29,6 @@ Shivam's Knowledgebase
 - Classes and RAII: [Notes](notes/RAII.md)
 - Templates: [Notes](notes/templates.md)
 - Virtual Functions and vTables: [Notes](notes/virtual_functions.md)
-- Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
 - HTTP using libcurl: [Notes](notes/http.md)
 - More C++ Study Notes: [Link](https://encelo.github.io/notes.html)
 - Function Inlining: [Notes](https://isocpp.org/wiki/faq/inline-functions)
@@ -53,8 +51,7 @@ Shivam's Knowledgebase
 - LRU Cache: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/LRU_cache.hpp)
 - Scope Timer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/timer.hpp)
 
-### Miscellaneous
-- From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
+### OS
 - Atomic Instructions: [Notes](notes/atomic_instructions.md)
 - Memory Reordering: [Notes](notes/memory_reordering.md)
 - Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md) 
@@ -68,11 +65,14 @@ Shivam's Knowledgebase
 - From NIC to User Processes: [Notes](notes/packet_handling.md)
 - How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
 
-## Some Interesting Things
+## Some Interesting YT Videos
+- Revise OS Memory Management: [Link](https://www.youtube.com/watch?v=7aONIVSXiJ8&t=497s)
+- Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
 - `mmap` in database system: [Link](https://www.youtube.com/watch?v=1BRGU_AS25c)
 - How processes get more memory: [Link](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
 - `mmap` for File Mapping: [Link](https://www.youtube.com/watch?v=m7E9piHcfr4)
 - `mmap` for IPC: [Link](https://www.youtube.com/watch?v=rPV6b8BUwxM)
+- From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
 
 
 ```
