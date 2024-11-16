@@ -146,4 +146,9 @@ considered.  To achieve maximum performance it is best to model the problem so
 the processor can do units of work, then have all the necessary memory barriers 
 occur on the boundaries of these work units
 
+## C++ Memory Model
+
+- [Memory Model Article](https://dev.to/kprotty/understanding-atomics-and-memory-ordering-2mom)
+- [Post on Stack Overflow](https://stackoverflow.com/questions/12346487/what-do-each-memory-order-mean)
+
 
