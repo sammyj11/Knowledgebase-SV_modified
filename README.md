@@ -31,7 +31,7 @@ Shivam's Knowledgebase
 - Virtual Functions and vTables: [Notes](notes/virtual_functions.md)
 - HTTP using libcurl: [Notes](notes/http.md)
 - More C++ Study Notes: [Link](https://encelo.github.io/notes.html)
-- Function Inlining: [Notes](https://isocpp.org/wiki/faq/inline-functions)
+- Allocators: [Notes](notes/allocators.md)
 - Placement New: [Notes](notes/placement_new.md)
 - Exceptions (throw, try/catch): [Notes](notes/exceptions.md)
 - `i++` vs `++i` overloading: [Notes](notes/pre-post-increment.md)
@@ -43,6 +43,7 @@ Shivam's Knowledgebase
 - Return Value Optimisation: [Notes](notes/rvo.md)
 - Template Metaprogramming: [Notes](notes/metaprogramming.md)
 - Set vs PQ: [Notes](notes/set_pq.md)
+- Function Inlining: [Notes](notes/function_inlining.md)
 
 ### C++ Implementation
 - Unique Pointer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/unique_pointer.hpp)
