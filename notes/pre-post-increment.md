@@ -1,13 +1,13 @@
 ## `i++` vs `++i`
 
-First lets see for our class how can we overload, the prefix and postfix ++
+First lets see for our class how can we overload, the ++prefix and postfix++
 operators.
 
 ```cpp
 class Number {
 public:
-  Number& operator++ ();    // prefix ++
-  Number  operator++ (int); // postfix ++
+  Number& operator++ ();    // ++prefix
+  Number  operator++ (int); // postfix++
 };
 ```
 
