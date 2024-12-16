@@ -68,7 +68,7 @@ Shivam's Knowledgebase
 - From NIC to User Processes: [Notes](notes/packet_handling.md)
 - How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
 
-## Some Interesting YT Videos
+### Some Interesting YT Videos
 - Revise OS Memory Management: [Link](https://www.youtube.com/watch?v=7aONIVSXiJ8&t=497s)
 - Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
 - `mmap` in database system: [Link](https://www.youtube.com/watch?v=1BRGU_AS25c)
@@ -77,6 +77,9 @@ Shivam's Knowledgebase
 - `mmap` for IPC: [Link](https://www.youtube.com/watch?v=rPV6b8BUwxM)
 - From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
 
+
+### Extra
+- Git command sheet: [Notes](notes/git-sheet.md)
 
 ```
 Madhushala by HRB:
