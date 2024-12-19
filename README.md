@@ -80,6 +80,7 @@ Shivam's Knowledgebase
 
 ### Extra
 - Git command sheet: [Notes](notes/git-sheet.md)
+- Tmux cheat sheet: [Notes](notes/tmux.md)
 
 ```
 Madhushala by HRB:
