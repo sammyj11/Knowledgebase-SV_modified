@@ -9,7 +9,7 @@
 2. Attach to a session (from outside tmux)
 
             tmux attach -t <session-name>
-
+            tmux a
 3. Detach from a session
 
             Press Ctrl+b, then d
