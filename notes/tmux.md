@@ -38,6 +38,25 @@ We can have windows inside a session
 
             Press Ctrl+b, then w
 
+### Panes
+In a window we can have multiple panes:
+
+1. Split horizontal
+
+            Press Ctrl+b, then %
+
+2. Split vertically
+
+            Press Ctrl+b, then "
+
+3. Switch between panes
+
+            Press Ctrl+b, then <arrow keys>
+
+4. Close a pane
+
+            Press Ctrl+b, then x
+
 
 ### More
 
