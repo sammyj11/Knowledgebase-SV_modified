@@ -90,5 +90,6 @@ Shivam's Knowledgebase
 
 ### Extra
 
+- Get started with Vim/Nvim: [Notes](notes/vim.md)
 - Git command sheet: [Notes](notes/git-sheet.md)
 - Tmux cheat sheet: [Notes](notes/tmux.md)
