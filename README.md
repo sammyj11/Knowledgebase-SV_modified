@@ -1,6 +1,4 @@
-# Systems-and-CPP
-
-Shivam's Knowledgebase
+# Shivam's Knowledgebase
 
 ### Operating Systems
 
