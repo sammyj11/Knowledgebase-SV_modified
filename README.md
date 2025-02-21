@@ -1,5 +1,7 @@
 # Shivam's Knowledgebase
 
+## CS Fundamentals
+
 ### Operating Systems
 
 - Operating Systems: A Linux Kernel-Oriented Perspective by Prof. Smruti Sarangi:
@@ -18,11 +20,35 @@
 - Some Latency Number: [Notes](notes/latency_numbers.md)
 - To be added
 
-### Docker
+### OS
 
-- Basic Introduction by Learn Linux TV: [YT Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
+- Atomic Instructions: [Notes](notes/atomic_instructions.md)
+- Memory Reordering: [Notes](notes/memory_reordering.md)
+- Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md)
+- Buffer Overflow Attacks: [Notes](notes/buffer_overflow.md)
+- OS Boot Process: [Notes](notes/os_booting.md)
+- From a Program to Process: [Notes](notes/program_to_process.md)
+- Stack Memory Management: [Link](https://organicprogrammer.com/2020/08/19/stack-frame/)
+- To be added
 
-### C++
+### Networking
+
+- From NIC to User Processes: [Notes](notes/packet_handling.md)
+- How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
+
+### Some Interesting YT Videos
+
+- Revise OS Memory Management: [Link](https://www.youtube.com/watch?v=7aONIVSXiJ8&t=497s)
+- Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
+- `mmap` in database system: [Link](https://www.youtube.com/watch?v=1BRGU_AS25c)
+- How processes get more memory: [Link](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
+- `mmap` for File Mapping: [Link](https://www.youtube.com/watch?v=m7E9piHcfr4)
+- `mmap` for IPC: [Link](https://www.youtube.com/watch?v=rPV6b8BUwxM)
+- From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
+
+## C++
+
+### General Concepts
 
 - Move Semantics: [Notes](notes/move_semantics.md)
 - Casting: [Notes](notes/casting.md)
@@ -60,34 +86,14 @@
 - Scope Timer: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/timer.hpp)
 - Memory Pool: [Code](https://github.com/Shivam5022/CPP-Internals/blob/main/includes/memory_pool.hpp)
 
-### OS
+## Development
 
-- Atomic Instructions: [Notes](notes/atomic_instructions.md)
-- Memory Reordering: [Notes](notes/memory_reordering.md)
-- Padding and Packing (Aligned Memory Access): [Notes](notes/padding_packing.md)
-- Buffer Overflow Attacks: [Notes](notes/buffer_overflow.md)
-- OS Boot Process: [Notes](notes/os_booting.md)
-- From a Program to Process: [Notes](notes/program_to_process.md)
-- Stack Memory Management: [Link](https://organicprogrammer.com/2020/08/19/stack-frame/)
-- To be added
-
-### Networking
-
-- From NIC to User Processes: [Notes](notes/packet_handling.md)
-- How The Kernel Handles A TCP Connection: [Notes](notes/linux_tcp.md)
-
-### Some Interesting YT Videos
-
-- Revise OS Memory Management: [Link](https://www.youtube.com/watch?v=7aONIVSXiJ8&t=497s)
-- Why Composition better than Inheritance: [Link](https://www.youtube.com/watch?v=tXFqS31ZOFM&list=PLE28375D4AC946CC3&index=24)
-- `mmap` in database system: [Link](https://www.youtube.com/watch?v=1BRGU_AS25c)
-- How processes get more memory: [Link](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
-- `mmap` for File Mapping: [Link](https://www.youtube.com/watch?v=m7E9piHcfr4)
-- `mmap` for IPC: [Link](https://www.youtube.com/watch?v=rPV6b8BUwxM)
-- From Silicon to Applications: [Link](https://youtu.be/5f3NJnvnk7k?si=zVW5JZbXZz8X74XI)
-
-### Extra
+### Work Environment
 
 - Get started with Vim/Nvim: [Notes](notes/vim.md)
 - Git command sheet: [Notes](notes/git-sheet.md)
 - Tmux cheat sheet: [Notes](notes/tmux.md)
+
+### Docker
+
+- Basic Introduction by Learn Linux TV: [YT Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
