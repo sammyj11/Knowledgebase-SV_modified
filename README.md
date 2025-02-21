@@ -97,3 +97,7 @@
 ### Docker
 
 - Basic Introduction by Learn Linux TV: [YT Link](https://www.youtube.com/playlist?list=PLT98CRl2KxKECHltRib03tG8pyKEzwf9t)
+
+### CLI utilities
+
+- Find command linux: [Notes](/notes/find.md)
