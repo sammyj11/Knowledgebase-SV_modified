@@ -7,6 +7,8 @@
   - [path]:  The directory where the search will be started
   
   - [expression]: Filter criteria
+  
+  - when using `-name -iname` as criteria * is supported for wildcard
 
 - `find /home/user -name "example.txt"` find a file with following name in /home/user directory
 
