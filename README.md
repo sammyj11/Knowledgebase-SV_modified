@@ -100,4 +100,5 @@
 
 ### CLI utilities
 
+- Cheat.sh: [Notes](/notes/cheat.md)
 - Find command linux: [Notes](/notes/find.md)
