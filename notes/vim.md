@@ -1,5 +1,8 @@
 ## NeoVim
 
+**Update:**: I have moved to [Helix](https://helix-editor.com). The config is available at same repo as below. 
+(Personally found it better than nvim, because it doesn't require much configuration. It simply works.)
+
 My neovim configuration is available at [this link](https://github.com/Shivam5022/.dotfiles)
 
 Some resources to get started with neovim:
