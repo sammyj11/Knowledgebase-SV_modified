@@ -90,7 +90,7 @@
 
 ### Work Environment
 
-- Get started with Vim/Nvim: [Notes](notes/vim.md)
+- Get started with Vim/Nvim (Helix actually): [Notes](notes/vim.md)
 - Git command sheet: [Notes](notes/git-sheet.md)
 - Tmux cheat sheet: [Notes](notes/tmux.md)
 
